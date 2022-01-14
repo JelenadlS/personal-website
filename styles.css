@@ -1,102 +1,136 @@
 * { 
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  html {
-    background-image: linear-gradient(to bottom, rgba(48, 19, 117, 0.651), rgba(202, 180, 198, 0.651));
-  }
-  
-  body {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 110%;
-    line-height: 1.5;
-    margin: 2em;
-    color:rgb(20, 15, 48);
-  }
+html {
+  background-image: linear-gradient(to bottom, rgba(48, 19, 117, 0.651), rgba(202, 180, 198, 0.651));
+}
 
-  h1, h2, h3, h4, h5, h6 {
-    line-height: 1.2;
-    text-decoration: underline;
-    text-align: center;
-  }
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 110%;
+  line-height: 1.5;
+  margin: 1.5em;
+}
 
-  h1 {
-    font-family: Bradley Hand, Helvetica, Arial, sans-serif;
-  }
+h1 {
+  font-family: Bradley Hand, Helvetica, Arial, sans-serif;
+}
 
-  hr{
-    border: 0;
-    width: auto;
-    height: 1px;
-    background-color: rgba(72, 66, 83, 0.459);
-  }
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  text-decoration: underline;
+}
 
-  a {
-    text-decoration: none;
-    text-align: center;
-    border-bottom: 1px solid rgba(56, 20, 77, 0.5);
-  }
+hr{
+  border: 0;
+  width: auto;
+  height: 1px;
+  background-color: rgba(72, 66, 83, 0.459);
+}
 
-  small {
-    font-size: 1rem;
-  }
+.container-head {
+border: 1px solid none;
+display: flex;
+flex-flow: row wrap;
+justify-content: flex-start;
+align-items: center;
+gap: 50px;
+}
 
-  .main-nav {
-      border: 1px solid none;
-      height: 50px;
-      padding: 4px;
-      display: flex;
-      gap: 50px;
-      justify-content: flex-start;
-      align-items: flex-start;
-      align-content: flex-start;
-  }
+.cild-head-name {
+border: 1px solid none;
+flex: 1;
+}
 
-  .main-nav > * {
-    flex-grow: 1;
-    flex-basis: 0%;
-  }
+.cild-head-nav {
+border: 1px solid none;
+}
 
-  .button {
-    background-color: rgba(96, 62, 136, 0.822);
-    padding: 8px 12px;
-    border-radius: 4px;
-    color: rgb(201, 170, 226);
-    box-shadow: 5px 4px 6px rgba(29, 3, 53, 0.8); 
-  }
-
-  .coverimg {
-    border-radius: 30px 190px 80px 190px;
-    box-shadow: 0px 0px 30px 1px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-  }
-
-  .centre {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-
-  .buttontext {
-    background-color: rgba(159, 121, 190, 0.7);
-    padding: 1px;
-    border-radius: 4px;
+.main-nav {
     border: 1px solid none;
-  }
+    height: 50px;
+    padding: 4px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
 
-  a[href^="mailto"]::before {
-    content: "📧 ";
-  }
+.main-nav > * {
+  flex-grow: 1;
+  flex-basis: 0%;
+}
 
-  a[href^="tel"]::before {
-    content: "📞";
-  }
-  
-  .contact {
-    padding: 2px;
-    margin: 10px;
-  }
+.button {
+  background-color: rgba(96, 62, 136, 0.822);
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: rgb(201, 170, 226);
+  box-shadow: 5px 4px 6px rgba(29, 3, 53, 0.8); 
+}
+
+/* Funktioniert zusammen mit flex nicht - noch mal prüfen + allgemein Bild
+#coverimg {
+  border-radius: 30px 190px 80px 190px;
+  box-shadow: 0px 0px 30px 1px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+*/
+
+.container-sum {
+  border: 1px solid none;
+  display: flex;
+  gap: 10px;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.child-sumpic {
+border: 1px solid none;
+
+}
+
+.child-sumtxt {
+border: 1px solid none;
+padding: 8px 12px;
+flex: 1;
+}
+
+img {
+width: 100%;
+hight: auto;
+}
+
+.no-bullets {
+list-style-type: none; 
+}
+
+.buttontext {
+  background-color: rgba(159, 121, 190, 0.7);
+  padding: 1px 10px;
+  border-radius: 5px;
+  color: rgb(98, 58, 131);
+  border: 1px solid none;
+}
+
+.inline {
+display: inline-block
+}
+
+a[href^="mailto"]::before {
+  content: "📧 ";
+}
+
+a[href^="tel"]::before {
+  content: "📞";
+}
+
+.contact {
+  padding: 2px;
+  margin: 10px;
+}
