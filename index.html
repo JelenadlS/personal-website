@@ -11,8 +11,8 @@
 
 <body>
   <header class="container-head">
-    <h1 class="cild-head-name">Jelena de la Sauce</h1>
-    <nav class="cild-head-nav main-nav">
+    <h1 class="child-head-name">Jelena de la Sauce</h1>
+    <nav class="child-head-nav main-nav">
       <a href="#contact"  class="button">Contact</a>
       <a href="#about" class="button">About</a>
       <a href="#biography" class="button">Biography</a>
@@ -22,68 +22,65 @@
   <summary class="container-sum">
   <figure class="child-sumpic">
     <div>
-    <img src="https://media.istockphoto.com/photos/view-from-above-of-home-office-desk-with-laptop-flowers-and-leaves-on-picture-id1030888824?b=1&k=20&m=1030888824&s=170667a&w=0&h=PdSVMCNoVesDaB53lOtkq8Vkjq7wgrSzRaKY0ElbL3Q=" alt="" width="250" height="300" id="coverimg"> 
-      <figcaption><center>This is not the desk of Jelena. :-)</center></figcaption>
+    <img src="https://media.istockphoto.com/photos/view-from-above-of-home-office-desk-with-laptop-flowers-and-leaves-on-picture-id1030888824?b=1&k=20&m=1030888824&s=170667a&w=0&h=PdSVMCNoVesDaB53lOtkq8Vkjq7wgrSzRaKY0ElbL3Q=" alt="" width="auto" height="auto" id="coverimg"> 
+      <figcaption>This is not the desk of Jelena. :-)</figcaption>
     </div>
   </figure>
 
   <hr />
 
   <section class="child-sumtxt">
-    <p>  
+    <div>  
       <h2>Key Skills</h2>
       <ul class="no-bullets">
         <li class="buttontext inline">negotiation</li>
         <li class="buttontext inline">customer service</li>
       </ul>
-    </p>
+    </div>
 
     <hr />
 
-    <p>
+    <div>
       <h2>Languages</h2>
       <ul class="no-bullets">
         <li class="buttontext inline">HTML</li>
         <li class="buttontext inline">CSS</li>
         <li class="buttontext inline">JavaScript</li>
       </ul>
-    </p>
+    </div>
   </section>
   </summary>
 
   <hr />
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <div>Please feel free to contact me if you have any questions.
-      <br>
-      Below you can find my contact details:
-    
-      <address>
-       <a href="mailto:jelena_de_la_sauce@web.de">jelena_de_la_sauce@web.de</a>
-       <br>
-       <a href="tel:+4915159092870">+49 151 59092870</a>
-      </address>
-    </div>
+  <h2 id="contact">Contact</h2>
+  <div>Please feel free to contact me if you have any questions.</div>
+  <section class="container-contact">
+      <address class="child-contactadr">
+        <ul class="no-bullets container-address">
+          <li class="inline"><a href="mailto:jelena_de_la_sauce@web.de">jelena_de_la_sauce@web.de</a></li>
+          <li class="inline"><a href="tel:+4915159092870">+49 151 59092870</a></li>
+      </ul>
+    </address>
 
-    <br>
-
-    <div> You can also folow me on:
-    <br>
-      <a href="https://www.linkedin.com/in/jelena-de-la-sauce-33653577/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg" alt="" width="50" height="50" class="contact"></a>
-      <a href="https://github.com/JelenadlS" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt=""width="50" height="50" class="contact"></a>
+    <div class="child-contactmed"> 
+      <ul class="no-bullets container-media">
+        <li class="inline"><a href="https://www.linkedin.com/in/jelena-de-la-sauce-33653577/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg" alt="" width="200" height="200" class="contact"></a></li>
+        <li class="inline"><a href="https://github.com/JelenadlS" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="" width="200" height="200" class="contact"></a></li>
+        <li class="inline"><a href="https://www.linkedin.com/in/jelena-de-la-sauce-33653577/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="" width="300" height="300" class="contact"></a></li>
+      </ul>
     </div>
   </section>
 
   <hr />
-
-  <section id="about">
+<div class="abio">
+  <section id="about" class="abio-ab">
     <h2>About</h2>
     <p>I am a well organized and communicative Web Development student, who is graduating the boothcamp at neuefische end of March 2022. I am higly motivated to join a young, creative and inspiring team.</p>
   </section>
 <hr />
 
-  <section id="biography">
+  <section id="biography" class="abio-bio">
     <h2>Biography</h2>
     <table>
       <tr>
@@ -118,6 +115,7 @@
       </tr>
     </table>
   </section>
+</div>
 
 </body>
 </html>
