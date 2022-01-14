@@ -5,24 +5,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Jelena de la Sauce - personal website</title>
 </head>
 
 <body>
   <header>
     <h1>Jelena de la Sauce</h1>
-    <nav>
-      <a href="#contact">Contact</a>
-      <a href="#biography">Biography</a>
+    <nav class="main-nav">
+      <a href="#contact" class="button">Contact</a>
+      <a href="#biography" class="button">Biography</a>
     </nav>
   </header>
 
   <figure>
-    <img src="https://source.unsplash.com/random/400x200" alt=""> 
+    <img src="https://media.istockphoto.com/photos/view-from-above-of-home-office-desk-with-laptop-flowers-and-leaves-on-picture-id1030888824?b=1&k=20&m=1030888824&s=170667a&w=0&h=PdSVMCNoVesDaB53lOtkq8Vkjq7wgrSzRaKY0ElbL3Q=" alt="" width="400" height="250" class="coverimg centerimg"> 
     <figcaption>I am a well organized and communicative Web Development student, who is graduating the boothcamp at neuefische end of March 2022. I am higly motivated to join a young, creative and inspiring team.</figcaption>
   </figure>
 
-  <section id="skills">
+  <hr />
+
+  <section>
     <p>  
       <h2>Key Skills</h2>
       <ul>
@@ -30,8 +33,12 @@
         <li>customer service</li>
       </ul>
     </p>
+  </section>
 
-    <p> 
+    <hr />
+
+  <section>
+    <p>
       <h2>Languages</h2>
       <ul>
         <li>HTML</li>
@@ -41,12 +48,36 @@
     </p>
   </section>
 
+  <hr />
+
   <section id="contact">
     <h2>Contact</h2>
+    <div class="centre">Please feel free to contact me if you have any questions.
+      <br>
+      Below you can find my contact details:
+    
+      <address>
+       <a href="mailto:jelena_de_la_sauce@web.de" class="buttontext">jelena_de_la_sauce@web.de</a>
+       <br>
+       <a href="tel:+4915159092870" class="buttontext">+49 151 59092870</a>
+      </address>
+    </div>
+
+    <br>
+
+    <div class="centre"> You can also folow me on:
+    <br>
+      <a href="https://www.linkedin.com/in/jelena-de-la-sauce-33653577/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg" alt="" width="50" height="50" class="contact"></a>
+      <a href="https://github.com/JelenadlS" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt=""width="50" height="50" class="contact"></a>
+    </div>
   </section>
+
+  <hr />
+
+
   <section id="biography">
     <h2>Biography</h2>
   </section>
-</body>
 
+</body>
 </html>
