@@ -10,74 +10,112 @@
 </head>
 
 <body>
-  <header>
-    <h1>Jelena de la Sauce</h1>
-    <nav class="main-nav">
-      <a href="#contact" class="button">Contact</a>
+  <header class="container-head">
+    <h1 class="child-head-name">Jelena de la Sauce</h1>
+    <nav class="child-head-nav main-nav">
+      <a href="#contact"  class="button">Contact</a>
+      <a href="#about" class="button">About</a>
       <a href="#biography" class="button">Biography</a>
     </nav>
   </header>
 
-  <figure>
-    <img src="https://media.istockphoto.com/photos/view-from-above-of-home-office-desk-with-laptop-flowers-and-leaves-on-picture-id1030888824?b=1&k=20&m=1030888824&s=170667a&w=0&h=PdSVMCNoVesDaB53lOtkq8Vkjq7wgrSzRaKY0ElbL3Q=" alt="" width="400" height="250" class="coverimg centerimg"> 
-    <figcaption>I am a well organized and communicative Web Development student, who is graduating the boothcamp at neuefische end of March 2022. I am higly motivated to join a young, creative and inspiring team.</figcaption>
+  <summary class="container-sum">
+  <figure class="child-sumpic">
+    <div>
+    <img src="https://media.istockphoto.com/photos/view-from-above-of-home-office-desk-with-laptop-flowers-and-leaves-on-picture-id1030888824?b=1&k=20&m=1030888824&s=170667a&w=0&h=PdSVMCNoVesDaB53lOtkq8Vkjq7wgrSzRaKY0ElbL3Q=" alt="" width="auto" height="auto" id="coverimg"> 
+      <figcaption>This is not the desk of Jelena. :-)</figcaption>
+    </div>
   </figure>
 
   <hr />
 
-  <section>
-    <p>  
+  <section class="child-sumtxt">
+    <div>  
       <h2>Key Skills</h2>
-      <ul>
-        <li>negotiation</li>
-        <li>customer service</li>
+      <ul class="no-bullets">
+        <li class="buttontext inline">negotiation</li>
+        <li class="buttontext inline">customer service</li>
       </ul>
-    </p>
-  </section>
+    </div>
 
     <hr />
 
-  <section>
-    <p>
+    <div>
       <h2>Languages</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
+      <ul class="no-bullets">
+        <li class="buttontext inline">HTML</li>
+        <li class="buttontext inline">CSS</li>
+        <li class="buttontext inline">JavaScript</li>
       </ul>
-    </p>
+    </div>
   </section>
+  </summary>
 
   <hr />
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <div class="centre">Please feel free to contact me if you have any questions.
-      <br>
-      Below you can find my contact details:
-    
-      <address>
-       <a href="mailto:jelena_de_la_sauce@web.de" class="buttontext">jelena_de_la_sauce@web.de</a>
-       <br>
-       <a href="tel:+4915159092870" class="buttontext">+49 151 59092870</a>
-      </address>
-    </div>
+  <h2 id="contact">Contact</h2>
+  <div>Please feel free to contact me if you have any questions.</div>
+  <section class="container-contact">
+      <address class="child-contactadr">
+        <ul class="no-bullets container-address">
+          <li class="inline"><a href="mailto:jelena_de_la_sauce@web.de">jelena_de_la_sauce@web.de</a></li>
+          <li class="inline"><a href="tel:+4915159092870">+49 151 59092870</a></li>
+      </ul>
+    </address>
 
-    <br>
-
-    <div class="centre"> You can also folow me on:
-    <br>
-      <a href="https://www.linkedin.com/in/jelena-de-la-sauce-33653577/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg" alt="" width="50" height="50" class="contact"></a>
-      <a href="https://github.com/JelenadlS" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt=""width="50" height="50" class="contact"></a>
+    <div class="child-contactmed"> 
+      <ul class="no-bullets container-media">
+        <li class="inline"><a href="https://www.linkedin.com/in/jelena-de-la-sauce-33653577/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg" alt="" width="200" height="200" class="contact"></a></li>
+        <li class="inline"><a href="https://github.com/JelenadlS" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="" width="200" height="200" class="contact"></a></li>
+        <li class="inline"><a href="https://www.linkedin.com/in/jelena-de-la-sauce-33653577/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="" width="300" height="300" class="contact"></a></li>
+      </ul>
     </div>
   </section>
 
   <hr />
+<div class="abio">
+  <section id="about" class="abio-ab">
+    <h2>About</h2>
+    <p>I am a well organized and communicative Web Development student, who is graduating the boothcamp at neuefische end of March 2022. I am higly motivated to join a young, creative and inspiring team.</p>
+  </section>
+<hr />
 
-
-  <section id="biography">
+  <section id="biography" class="abio-bio">
     <h2>Biography</h2>
+    <table>
+      <tr>
+        <th colspan="3">Work experience</th>
+      </tr>
+      <tr>
+        <td>2/2020 - 9/2021</td>
+        <td>Event Booking Center Manager</td> 
+        <td>The Westin Hamburg</td> 
+      </tr>
+      <tr>
+        <td>10/2018 - 2/2020</td>
+        <td>Senior Event Event Sales Executive</td> 
+        <td>The Westin Hamburg</td> 
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <th colspan="3">Education</th>
+      </tr>
+      <tr>
+        <td>1/2022 - 3/2022</td>
+        <td>Web Development</td> 
+        <td>neuefische GmbH, Hamburg</td> 
+      </tr>
+      <tr>
+        <td>10/2018 - 2/2020</td>
+        <td>Bachelor of Business Administration (BBA), International Hospitality Management        </td> 
+        <td>Stenden University of Applied Science
+          Leeuwarden, die Niederlande</td> 
+      </tr>
+    </table>
   </section>
+</div>
 
 </body>
 </html>
