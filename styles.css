@@ -1,4 +1,4 @@
-* { 
+* {
   box-sizing: border-box;
 }
 
@@ -17,11 +17,16 @@ h1 {
   font-family: "Bradley Hand", Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.2;
 }
 
-hr{
+hr {
   border: 0;
   width: auto;
   height: 1px;
@@ -29,34 +34,34 @@ hr{
 }
 
 .container-head {
-border: 1px solid none;
-display: flex;
-flex-flow: row wrap;
-justify-content: flex-start;
-align-items: center;
-gap: 1px;
+  border: 1px solid none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1px;
 }
 
 .child-head-name {
-border: 1px solid none;
-flex-grow: 2;
+  border: 1px solid none;
+  flex-grow: 2;
 }
 
 .child-head-nav {
-border: 1px solid none;
-gap: 50px;
-flex-grow: 1;
+  border: 1px solid none;
+  gap: 50px;
+  flex-grow: 1;
 }
 
 .main-nav {
-    border: 1px solid none;
-    padding: 4px;
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center; 
-    align-content: center;
+  border: 1px solid none;
+  padding: 4px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
 }
 
 .main-nav > * {
@@ -70,21 +75,17 @@ flex-grow: 1;
   padding: 8px 12px;
   border-radius: 4px;
   color: #e7d8f6;
-  box-shadow: 5px 4px 6px rgba(29, 3, 53, 0.8); 
+  box-shadow: 5px 4px 6px rgba(29, 3, 53, 0.8);
   text-align: center;
 }
 
 #coverimg {
   border-radius: 30px 190px 80px 190px;
-  box-shadow: 0px 0px 30px 1px;
+  box-shadow: 0px 0px 30px rgb(37, 19, 58);
   display: flex;
   margin: auto;
   width: 100%;
   height: auto;
-}
-
-figcaption {
-  text-align: right;
 }
 
 .container-sum {
@@ -98,13 +99,13 @@ figcaption {
 }
 
 .child-sumpic {
-border: 1px solid none;
+  border: 1px solid none;
 }
 
 .child-sumtxt {
-border: 1px solid none;
-padding: 8px 12px;
-flex: 1;
+  border: 1px solid none;
+  padding: 8px 12px;
+  flex: 1;
 }
 
 img {
@@ -113,8 +114,8 @@ img {
 }
 
 .no-bullets {
-list-style-type: none; 
-margin: 4px 10px;
+  list-style-type: none;
+  margin: 4px 10px;
 }
 
 .buttontext {
@@ -124,7 +125,7 @@ margin: 4px 10px;
   border-radius: 5px;
   color: #e7d8f6;
   border: 1px solid none;
-  box-shadow: 6px 6px 8px rgba(108, 93, 124, 0.918); 
+  box-shadow: 6px 6px 8px rgba(108, 93, 124, 0.918);
 }
 
 .container-contact {
@@ -132,12 +133,12 @@ margin: 4px 10px;
   gap: 5px;
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   align-content: center;
 }
 
-.child-contactadr{
+.child-contactadr {
   border: 1px solid none;
 }
 
@@ -147,13 +148,12 @@ margin: 4px 10px;
   padding: 4px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+  justify-content: space-evenly;
 }
 
 .container-address > * {
   border: 1px solid none;
+  /* to check: How to get 'justify-content: space-between' between email and phone- otherwise delete */
 }
 
 .container-media {
@@ -167,14 +167,23 @@ margin: 4px 10px;
   align-content: center;
 }
 
-.child-contactmed{
+.container-media > * {
+  border: 1px solid none;
+  flex-grow: 1;
+  flex-basis: 0;
+  align-self: flex-start;
+}
+
+.child-contactmed {
   border: 1px solid none;
   width: 100%;
   height: auto;
+  flex: 1;
 }
 
 .inline {
-display: inline-block;
+  display: inline-block;
+  text-align: center;
 }
 
 a[href^="mailto"]::before {
@@ -197,7 +206,7 @@ a[href^="tel"]::before {
 
 .abio-ab {
   border: 1px solid none;
-  flex: 1;  
+  flex: 1;
 }
 
 .abio-bio {
@@ -205,13 +214,13 @@ a[href^="tel"]::before {
   flex: 2;
 }
 
-.table-left{
+.table-left {
   text-align: left;
   vertical-align: text-top;
   font-size: 90%;
 }
 
-.table-right{
+.table-right {
   text-align: right;
   vertical-align: text-top;
   font-size: 90%;
