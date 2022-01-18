@@ -1,16 +1,12 @@
 .main-nav {
-  border: 1px solid none;
-  padding: 4px;
-  display: flex;
   gap: 10px;
+  display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
+  justify-content: space-between;
 }
 
+/*ist es hier besser in utilities und dann in alle drei einzeln?*/
 .main-nav > * {
-  border: 1px solid none;
   flex-grow: 1;
   flex-basis: 0;
 }
