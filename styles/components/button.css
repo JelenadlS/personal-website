@@ -1,0 +1,18 @@
+.button {
+  background-color: var(--color-dark-purple);
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: var(--color-light-purple);
+  box-shadow: 5px 4px 6px var(--color-dark-purple);
+  text-align: center;
+}
+
+.button--text {
+  background-color: var(--color-grey-purple);
+  padding: 1px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  color: var(--color-light-purple);
+  border: 1px solid none;
+  box-shadow: 6px 6px 8px var(--color-light-grey-purple);
+}
