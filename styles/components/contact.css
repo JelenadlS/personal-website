@@ -8,10 +8,7 @@
   align-content: center;
 }
 
-.contact-media {
-  border: 1px solid hotpink;
-  width: 100%; /* macht das Sinn?*/
-  height: auto; /* macht das Sinn?*/
+.contact__logo-box {
   gap: 50px;
   padding: 4px;
   display: flex;
@@ -21,147 +18,13 @@
   align-content: center;
 }
 
-/*
-.contact-media--break {
-  border: 1px solid blue;
-  word-wrap: break-word;
-  white-space: normal;
-  flex-flow: 1;
-} */
-
-.contact-media > * {
+.contact__logo {
   border: 1px solid none;
   flex-grow: 1;
   flex-basis: 0;
   align-self: flex-start;
 }
 
-/* is not working anymore
-.contact :not(h2, p) {
-  border: 1px solid none;
-  gap: 5px;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  align-content: center;
-}
-
-.contact__address {
-  border: 1px solid none;
-}
-
-.contact__media {
-  border: 1px solid none;
-  width: 100%;
-  height: auto;
-  flex: 1;
-  flex-basis: 0;
-}
-
-.address {
-  border: 1px solid none;
-  gap: 10px;
-  padding: 4px;
-  display: flex;
-  flex-flow: row wrap 
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: flex-start;
-}
-
-.address__mail {
-  border: 1px solid none;
-  flex-shrink: 0;
-}
-
-.address__pho {
-  border: 1px solid none;
-  flex-shrink: 0;
-}
-
-.media {
-  border: 1px solid hotpink;
-  gap: 50px;
-  padding: 4px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-
-.media > * {
-  border: 1px solid blue;
-  flex-grow: 1;
-  flex-basis: 0;
-}
-*/
-/*alter Teil
-.container-contact {
-  border: 1px solid none;
-  gap: 5px;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-}
-
-.child-contactadr {
-  border: 1px solid none;
-}
-
-.container-address {
-  border: 1px solid none;
-  gap: 10px;
-  padding: 4px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-}
-
-.container-address > * {
-  border: 1px solid none;
-  flex-shrink: 0;
-}
-
-.container-media {
-  border: 1px solid none;
-  gap: 50px;
-  padding: 4px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-
-.container-media > * {
-  border: 1px solid none;
-  flex-grow: 1;
-  flex-basis: 0;
-  align-self: flex-start;
-}
-
-.child-contactmed {
-  border: 1px solid none;
-  width: 100%;
-  height: auto;
-  flex: 1;
-}
-
-.inline {
-  display: inline-block;
-  text-align: center;
-}
-
-a[href^="mailto"]::before {
-  content: "📧";
-}
-
-a[href^="tel"]::before {
-  content: "📞";
-}*/
 /* noch umbenennen wenn oben gefixt ist*/
 .inline {
   display: inline-block;
