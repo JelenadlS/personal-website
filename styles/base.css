@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--color-white-purple);
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 110%;
+  line-height: 1.5;
+  margin: 1.5em;
+}
+
+h1 {
+  font-family: "Bradley Hand", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+hr {
+  border: 0;
+  width: auto;
+  height: 1px;
+  background-color: var(--color-grey-purple);
+}
+
+ul {
+  list-style-type: none;
+  margin: 4px 10px;
+}
