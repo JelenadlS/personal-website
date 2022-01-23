@@ -10,18 +10,18 @@
 
   <body>
     <header class="header">
-      <h1 class="header__name" id="top">Jelena de la Sauce</h1>
-      <nav class="header__main-nav main-nav">
-        <a href="#contact" class="button" aria-label="my contact details">Contact</a>
-        <a href="#about" class="button" aria-label="about me">About</a>
-        <a href="#biography" class="button" aria-label=" my biography">Biography</a>
+      <h1 class="header--name" id="top">Jelena de la Sauce</h1>
+      <nav class="header--main-nav main-nav">
+        <a href="#contact" class="button--nav" aria-label="my contact details">Contact</a>
+        <a href="#about" class="button--nav" aria-label="about me">About</a>
+        <a href="#biography" class="button--nav" aria-label=" my biography">Biography</a>
       </nav>
     </header>
 
     <main>
       <section class="summary">
-        <figure class="summary__picture">
-          <img src="./Jelena Foto.jpeg" alt="" width="200" height="150" class="summary-image--design summary-image" />
+        <figure class="summary__image">
+          <img src="./Jelena Foto.jpeg" alt="" width="200" height="150" class="summary-image--design" />
           <figcaption>Welcome to my personal website!</figcaption>
         </figure>
 
@@ -59,22 +59,18 @@
         <h2 id="contact">Contact</h2>
         <p>Please feel free to contact me if you have any questions.</p>
         <address>
-          <!--class="contact__address inline"-->
           <ul class="contact">
             <li class="inline">
-              <!--class="address__mail"-->
               <a href="mailto:jelena_de_la_sauce@web.de" aria-label="send email">jelena_de_la_sauce@web.de</a>
             </li>
             <li class="inline">
-              <!--class="address__pho"-->
               <a href="tel:+4915159092870" aria-label="call">+49 151 59092870</a>
             </li>
           </ul>
         </address>
 
-        <ul class="contact contact-media">
-          <!--class="contact__media media-->
-          <li class="inline contact-media--break">
+        <ul class="contact__logo-box">
+          <li class="inline contact__logo">
             <a
               href="https://www.linkedin.com/in/jelena-de-la-sauce-33653577/"
               target="_blank"
@@ -85,18 +81,18 @@
                 width="100"
                 height="100"
             /></a>
-            <!--Follow me on Facebook and find out more of my interests. -->
+            Follow me on Facebook and find out more of my interests.
           </li>
-          <li class="inline contact-media--break">
+          <li class="inline contact__logo">
             <a href="https://github.com/JelenadlS" target="_blank" aria-label="go to github">
               <img
                 src="https://camo.githubusercontent.com/b079fe922f00c4b86f1b724fbc2e8141c468794ce8adbc9b7456e5e1ad09c622/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6769746875622e737667"
                 alt=""
                 width="100"
                 height="100" /></a
-            ><!--Follow me on GitHub and stay updated about my projects. -->
+            >Follow me on GitHub and stay updated about my projects.
           </li>
-          <li class="inline contact-media--break">
+          <li class="inline contact__logo">
             <a
               href="https://www.linkedin.com/in/jelena-de-la-sauce-33653577/"
               target="_blank"
@@ -107,7 +103,7 @@
                 alt=""
                 width="100"
                 height="100" /></a
-            ><!--Check out my Linkedin for more biography.-->
+            >Check out my Linkedin for more biography
           </li>
         </ul>
       </section>
@@ -178,12 +174,12 @@
         </section>
       </div>
     </main>
-  </body>
 
-  <footer>
-    <small
-      >I hope you had fun reading!<br />
-      <a href="#top" aria-label="to the top">start of the website</a></small
-    >
-  </footer>
+    <footer>
+      <small
+        >I hope you had fun reading!<br />
+        <a href="#top" aria-label="to the top">start of the website</a></small
+      >
+    </footer>
+  </body>
 </html>

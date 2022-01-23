@@ -1,29 +1,23 @@
 .summary {
-  border: 1px solid none;
   display: flex;
   gap: 10px;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  align-content: stretch;
-  background: linear-gradient(
-    to bottom,
-    var(--color-very-light-purple),
-    var(--color-white-purple)
-  );
+  background: linear-gradient(to bottom, var(--color-very-light-purple), var(--color-white-purple));
 }
 
-.summary__picture {
-  border: 1px solid none;
+/* check noch mal, ob das Bild auch etwas kleiner geht*/
+.summary__image {
   flex: 1;
   text-align: center;
 }
 
 .summary__text {
-  border: 1px solid none;
   padding: 8px 12px;
 }
 
+/*check ob das Bild angepasst werden kann, damit es nicht so groß wird*/
 .summary-image--design {
   border-radius: 120px;
   box-shadow: 0px 0px 30px var(--color-dark-purple);
@@ -31,9 +25,6 @@
   margin: auto;
   width: 100%;
   height: auto;
-}
-
-.summary-image {
   max-height: 100%;
   min-width: 100%;
 }
