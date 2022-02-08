@@ -11,21 +11,21 @@
 .contact__logo-box {
   gap: 50px;
   padding: 4px;
+  margin-top: 50px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   align-content: center;
 }
 
 .contact__logo {
   border: 1px solid none;
+  align-items: flex-start;
   flex-grow: 1;
   flex-basis: 0;
-  align-self: flex-start;
 }
 
-/* noch umbenennen wenn oben gefixt ist*/
 .inline {
   display: inline-block;
   text-align: center;
